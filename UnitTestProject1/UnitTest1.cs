@@ -1,4 +1,5 @@
 ﻿using System;
+using ChainingAssertion_demo;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestProject1
@@ -9,6 +10,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
+            Assert.AreEqual(3, Class1.Add(1, 2));
         }
     }
 }

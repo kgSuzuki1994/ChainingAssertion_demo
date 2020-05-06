@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainingAssertion_demo", "ChainingAssertion_demo\ChainingAssertion_demo.csproj", "{8DA0B21F-0C18-4725-AAA1-103649219DD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{4C93CE1A-78FF-430F-A8D9-891B1B890B1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DA0B21F-0C18-4725-AAA1-103649219DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA0B21F-0C18-4725-AAA1-103649219DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA0B21F-0C18-4725-AAA1-103649219DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA0B21F-0C18-4725-AAA1-103649219DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C93CE1A-78FF-430F-A8D9-891B1B890B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C93CE1A-78FF-430F-A8D9-891B1B890B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C93CE1A-78FF-430F-A8D9-891B1B890B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C93CE1A-78FF-430F-A8D9-891B1B890B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29BD3222-4017-4A3C-A10D-19FF5AE3504C}
+	EndGlobalSection
+EndGlobal

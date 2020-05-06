@@ -10,9 +10,12 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual(3, Class1.Add(1, 2));
+            //Assert.AreEqual(3, Class1.Add(1, 2));
+            Class1.Add(1, 2).Is(3);
+
             var ex = AssertEx.Throws<InputException>(() => Class1.Add(-1, 2));
-            Assert.AreEqual("マイナス値は入力できません", ex.Message);
+            //Assert.AreEqual("マイナス値は入力できません", ex.Message);
+            ex.Message.Is("マイナス値は入力できません");
         }
 
         //[TestMethod]

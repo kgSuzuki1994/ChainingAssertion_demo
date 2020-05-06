@@ -11,13 +11,15 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
             Assert.AreEqual(3, Class1.Add(1, 2));
+            var ex = AssertEx.Throws<InputException>(() => Class1.Add(-1, 2));
+            Assert.AreEqual("マイナス値は入力できません", ex.Message);
         }
 
-        [TestMethod]
-        [ExpectedException(typeof(InputException))]
-        public void 例外のテスト()
-        {
-            Assert.AreEqual(3, Class1.Add(-1, 2));
-        }
+        //[TestMethod]
+        //[ExpectedException(typeof(InputException))]
+        //public void 例外のテスト()
+        //{
+        //    Assert.AreEqual(3, Class1.Add(-1, 2));
+        //}
     }
 }

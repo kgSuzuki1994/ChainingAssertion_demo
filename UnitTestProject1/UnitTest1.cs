@@ -12,5 +12,12 @@ namespace UnitTestProject1
         {
             Assert.AreEqual(3, Class1.Add(1, 2));
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(InputException))]
+        public void 例外のテスト()
+        {
+            Assert.AreEqual(3, Class1.Add(-1, 2));
+        }
     }
 }
